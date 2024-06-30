@@ -1,0 +1,16 @@
+import pgzrun
+
+WIDTH = 300
+HEIGHT = 300
+
+
+def draw():
+    length = 200
+    width = 100
+    rect = Rect((70,200), (length,width))
+    screen.draw.rect(rect, 'turquoise')
+
+    screen.draw.circle((0,100), 50, 'white')
+ 
+
+pgzrun.go()
